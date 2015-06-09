@@ -1,0 +1,96 @@
+﻿@font-face {
+    font-family: 'bYekan';
+    src: url('..fonts/BYekan.eot');
+    src: local('Yekan'), url('../fonts/Byekan.woff') format('woff'), url('../fonts/BYekan.ttf') format('truetype'), url('../fonts/BYekan.svg#BYekan') format('svg');
+}
+
+* {
+    font-family: 'bYekan',tahoma;
+    outline: none !important;
+    direction: rtl;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ui-header {
+    height: 45px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+}
+
+.ui-footer {
+    height: 55px;
+    -webkit-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.2);
+}
+
+.ui-panel-header {
+    background: #ececec;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.ui-btn:link {
+    font-family: 'bYekan',tahoma;
+    font-weight: normal;
+    font-size: 10px;
+    color: #808080;
+}
+
+input {
+    font-family: 'bYekan',tahoma;
+    font-size: 13px;
+}
+
+iframe {
+    width: 100%;
+    //top: 45px;
+    //position: absolute;
+    //right:0;
+    //z-index:2;
+    background: #ececec;
+}
+.reload {
+    width: 100%;
+    text-align:center;
+    font-size:13px;
+    padding: 50px 0;
+}
+.reload i {
+    font-size:40px;
+    color: #808080;
+    display:block;
+    margin-bottom:10px;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    margin: 0 5% 10%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.ui-mobile label, .ui-controlgroup-label {
+    font-size: 13px;
+}
+	
+.ui-icon-help:after {
+    background-image: url("../images/help.png");
+    background-size: 18px 18px;
+}
+.ui-btn:link {
+  font-size: 13px;
+}
+.ui-listview li{
+    height: 60px;
+}
+.ui-listview a{
+    height: 40px;
+    line-height: 40px;
+}
